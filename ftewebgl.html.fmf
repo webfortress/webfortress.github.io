@@ -1,0 +1,10 @@
+game Quake
+name "Quake Demo"
+basegame id1
+
+defaultexec \"alias stuffcmds \"echo Welcome to WebTF;gl_font charset; vid_reload;bind w +forward; bind s +back; bind a +moveleft; bind d +moveright; bind mouse2 +jump;\""
+
+package id1/pak0.pak - "bin/id1/pak0.pak"
+package fortress/pak0.pak - "bin/fortress/pak0.pak"
+package fortress/pak1.pak - "bin/fortress/pak1.pak"
+package fortress/pak2.pak - "bin/fortress/pak2.pak"
