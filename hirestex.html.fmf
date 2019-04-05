@@ -1,0 +1,14 @@
+game Quake
+name "WebFortress"
+basegame id1
+basegame fortress
+
+defaultexec "echo WELCOME TO WEBFORTRESS;exec config.cfg;spectator 1; gamedir fortress; vid_reload"
+
+package id1/pak0.pak "0x4f069cac" "bin/id1/pak0.pak"
+package id1/id1.pk3 "0xafda87f0" "bin/id1/id1.pk3"
+package qw/qw.pk3 "0xafda87f0" "bin/qw/qw.pk3"
+package fortress/root.pk3 "0x40ade549" "bin/fortress/root.pk3"
+package fortress/pak0.pk3 "0xc9b0bf0e" "bin/fortress/pak0.pk3"
+package fortress/fortressone.pk3 "0x4b35be79" "bin/fortress/fortressone.pk3"
+package fortress/hirestex.pk3 "0x17aec3d4" "bin/fortress/hirestex.pk3"

@@ -1,0 +1,9 @@
+game Quake
+name "Quake Demo"
+basegame id1
+
+
+defaultexec "echo WELCOME;exec config.cfg;spectator 1; gamedir fortress; vid_reload"
+
+package id1/pak0.pk3 - "bin/id1/pak0.pk3"
+package fortress/test.pk3 - "bin/fortress/test.pk3"
