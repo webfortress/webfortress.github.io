@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -138,11 +139,19 @@
       <div class="container">
               <form onsubmit="launch(); return false">
                 <div class="form-row">
-                  <div class="form-group col-sm-6">
+                  <div class="form-group col-sm-4">
                     <label for="name">Your Name</label>
                     <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="(max 15 characters)" maxlength="15" required="true">
                   </div>
-                  <div class="form-group col-sm-6">
+                  <div class="form-group col-sm-4">
+                    <label for="server">Graphics</label>
+                    <select class="form-control" id="quality" name="quality" aria-describedby="owi">
+                      <option value="texmaps.html.fmf" selected>Highest Quality</option>
+                      <option value="hirestex.html.fmf">High Quality</option>
+                      <option value="light.html.fmf">Low Quality</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-sm-4">
                     <label for="server">Server</label>
                     <select class="form-control" id="server" name="server" aria-describedby="owi">
                       <option value="27500" selected>tf.quadclub.com.br:27500</option>
@@ -175,22 +184,22 @@
       var serverHost = "tf.quadclub.com.br"
       switch($("#server").val()) {
         case "27500":
-          window.location.href = "http://" + window.location.host + "/ftewebgl.html?+set spectator 1 +connect "+ serverHost + ":27550 +set name [web]" + $("#name").val();
+          window.location.href = "http://" + window.location.host + "/ftewebgl.html#" + $("#quality").val() + "?+set spectator 1 +connect "+ serverHost + ":27550 +set name [web]" + $("#name").val();
           break;
         case "27501":
-          window.location.href = "http://" + window.location.host + "/ftewebgl.html?+set spectator 1 +connect "+ serverHost + ":27551 +set name [web]" + $("#name").val();
+          window.location.href = "http://" + window.location.host + "/ftewebgl.html#" + $("#quality").val() + "?+set spectator 1 +connect "+ serverHost + ":27551 +set name [web]" + $("#name").val();
           break;
         case "27502":
-          window.location.href = "http://" + window.location.host + "/ftewebgl.html?+set spectator 1 +connect "+ serverHost + ":27552 +set name [web]" + $("#name").val();
+          window.location.href = "http://" + window.location.host + "/ftewebgl.html#" + $("#quality").val() + "?+set spectator 1 +connect "+ serverHost + ":27552 +set name [web]" + $("#name").val();
           break;
         case "27503":
-          window.location.href = "http://" + window.location.host + "/ftewebgl.html?+set spectator 1 +connect "+ serverHost + ":27553 +set name [web]" + $("#name").val();
+          window.location.href = "http://" + window.location.host + "/ftewebgl.html#" + $("#quality").val() + "?+set spectator 1 +connect "+ serverHost + ":27553 +set name [web]" + $("#name").val();
           break;
         case "27504":
-          window.location.href = "http://" + window.location.host + "/ftewebgl.html?+set spectator 1 +connect "+ serverHost + ":27554 +set name [web]" + $("#name").val();
+          window.location.href = "http://" + window.location.host + "/ftewebgl.html#" + $("#quality").val() + "?+set spectator 1 +connect "+ serverHost + ":27554 +set name [web]" + $("#name").val();
           break;
         case "27505":
-          window.location.href = "http://" + window.location.host + "/ftewebgl.html?+set spectator 1 +connect "+ serverHost + ":27555 +set name [web]" + $("#name").val();
+          window.location.href = "http://" + window.location.host + "/ftewebgl.html#" + $("#quality").val() + "?+set spectator 1 +connect "+ serverHost + ":27555 +set name [web]" + $("#name").val();
           break;
 
       }
