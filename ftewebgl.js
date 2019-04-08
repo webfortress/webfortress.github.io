@@ -5689,7 +5689,7 @@ function _emscriptenfte_print(msg) {
         nl = FTEC.linebuffer.indexOf("\n");
         if (nl == -1)
             break;
-        console.log(FTEC.linebuffer.substring(0, nl));
+        //console.log(FTEC.linebuffer.substring(0, nl));
         FTEC.linebuffer = FTEC.linebuffer.substring(nl + 1)
     }
 }

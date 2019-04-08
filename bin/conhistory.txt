@@ -1,0 +1,90 @@
+spectator 1
+connect tf.quadclub.com.br
+show_fps 1
+fov
+fov 120
+/gl_outline
+/gl_outline 1
+/gl_outline_width 
+/gl_outline_width 2
+/gl_outline_width 10
+/gl_outline 2
+/gl_outline 4
+/gl_outline 1
+/gl_outline 0
+gamma
+gamma 0.7
+fov 90
+/quit
+gamedir
+map 2fort5r
+spectator 0
+/reconnect 
+spectator 0
+map 2fort5r
+/r_fxaa 
+/r_fxaa 1
+/r_fxaa 0
+/r_fxaa 1
+/r_fxaa 5
+/r_fxaa 16
+/r_fxaa 32
+/r_fxaa 2
+/r_fxaa 1
+/r_fxaa 0
+/quickconnect 
+quit
+map 
+map 2fort5r
+spectator 0
+map 2fort5r
+spectator 0
+/spectator 0
+map 2fort5r
+spectator
+spectator 0
+/reconnect 
+find v_rock2.mdlç
+find v_rock2.mdl
+/find v_rock2.md3
+/find v_rock2.mdl
+/spectator 0
+/map 2fort5r 
+impulse 9
+fov
+fov 120
+/quit
+spectator 0
+map 2fort5r
+path
+impulse 9
+spectator 0
+map 2fort5r
+map 2fort5r
+spectator
+spectator 0
+map 2fort5r
+spectator 0
+map 2fort5r
+impulse 9
+map 2fort5r
+impulse 9
+map 2fort5r
+spectator 0
+map 2fort5r
+spectator 0
+disconnect
+spectator 0
+map 2fort5r
+impulse 9
+connect tf.quadclub.com.br:27501
+spectator 1
+connect tf.quadclub.com.br:27501
+/r_shadow_realtime_world
+/r_shadow_realtime_world 0
+gamedir fortress
+spectator 1
+connect tf.quadclub.com.br:27501
+fov 120
+connect tf.quadclub.com.br:27501
+/quit

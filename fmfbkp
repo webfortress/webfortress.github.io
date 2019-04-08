@@ -1,0 +1,27 @@
+game Quake
+name "WebFortress"
+basegame id1
+basegame fortress
+
+defaultexec "echo WELCOME TO WEBFORTRESS;spectator 1; gamedir fortress; vid_reload"
+
+package fortress/fte-highest.pk3 "0x382d83a8" "bin/fortress/fte-highest.pk3"
+package fortress/hirestex1.pk3 "0xfde70584" "bin/fortress/hirestex1.pk3"
+package fortress/hirestex2.pk3 "0x4906ca0c" "bin/fortress/hirestex2.pk3"
+package fortress/hirestex3.pk3 "0xe08bb6b9" "bin/fortress/hirestex3.pk3"
+package fortress/hirestex4.pk3 "0x82145d99" "bin/fortress/hirestex4.pk3"
+package fortress/hirestex5.pk3 "0x2f0c77a7" "bin/fortress/hirestex5.pk3"
+package fortress/texmaps1.pk3 "0xae235373" "bin/fortress/texmaps1.pk3"
+package fortress/texmaps2.pk3 "0xb02b74ec" "bin/fortress/texmaps2.pk3"
+package fortress/texmaps3.pk3 "0xfdc82d88" "bin/fortress/texmaps3.pk3"
+package fortress/texmaps4.pk3 "0xd697b329" "bin/fortress/texmaps4.pk3"
+package fortress/texmaps5.pk3 "0x1ddd037" "bin/fortress/texmaps5.pk3"
+package fortress/maps.pk3 "0x5d3de2a2" "bin/fortress/maps.pk3"
+package fortress/root.pk3 "0x40ade549" "bin/fortress/root.pk3"
+package fortress/pak0.pk3 "0xc9b0bf0e" "bin/fortress/pak0.pk3"
+package fortress/fortressone.pk3 "0x4ad0ad1b" "bin/fortress/fortressone.pk3"
+package id1/pak0.pak "0xb9e0d001" "bin/id1/pak0.pak"
+package id1/id1.pk3 "0xd8934d79" "bin/id1/id1.pk3"
+
+
+
